@@ -18,7 +18,7 @@ async-trait = "0.1.51"
 futures = "0.3.17"
 tokio-postgres = { version = "0.7.2", optional = true}
 tokio = { version = "1.26", optional = true}
-mysql_async = { version = ">=0.31.0,<0.33", optional = true, default-features = false}
+mysql_async = { version = ">=0.32.0,<0.33", optional = true, default-features = false}
 mysql_common = {version = ">=0.30.0,<0.31.0", optional = true, default-features = false}
 flate2 = { version = "*", optional = true, default-features = false }
 
